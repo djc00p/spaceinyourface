@@ -13,18 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   width: 100%;
   min-width: 500px;
   max-width: 2000px;
   margin: auto;
   padding: 0px;
-  background-color: white;
+  background-color: rgb(34,37,43);
   background-size:  100%;
-  font-family: verdana;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 h1 {
   display: flex;
   justify-content: center;
+  color: white;
+  margin-top: 0;
+  padding-top: 0.67em;
+}
+
+p {
+  margin: 5px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: orange;
 }

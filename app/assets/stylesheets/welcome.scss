@@ -1,60 +1,61 @@
+
+.page--index {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: calc(100vh - 63px);
+  padding-top: 50px;
+}
+
 .hero-image {
   position: relative;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-.hero-image img {
-  width: 100%;
-}
-
-.hero-image-text {
-  position: absolute;
-  font-size: 40px;
-  top: 40%;
-  left: 10%;
-  color: white;
-}
-
 .search-button {
-  margin: auto;
+  background-color: rgba(34,37,43,0.75);
+  color: white;
+  margin: 20px auto;
   display: inline-block;
   font-size: 40px;
   padding-top: 25px;
   padding-bottom: 25px;
   padding: 30px;
-  border-style: solid;
-  border-color: navy;
-  border-width: 5px;
-  border-radius: 30px;
-  border-spacing: 10px;
+  // border-style: solid;
+  // border-color: navy;
+  // border-width: 5px;
+  // border-spacing: 10px;
 }
 
 .search {
+  align-self: center;
   display: flex;
   flex-wrap: wrap;
   padding-top: 25px;
 }
 
 .sign-up-message {
-  margin: auto;
-  display: inline-block;
+
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  color: white;
+  background-color: rgba(34,37,43,0.75);
+  text-align: center;
   font-size: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
   padding: 20px;
-  border-style: solid;
-  border-color: navy;
-  border-width: 5px;
-  border-radius: 30px;
-  border-spacing: 10px;
 }
 
 .welcome-content {
   margin: auto;
+  margin-top: 50px;
   text-align: center;
   font-size: 30px;
   width: 75%;
   padding-top: 25px;
   padding-bottom: 25px;
+  background-color: rgba(34,37,43,0.75);
 }
